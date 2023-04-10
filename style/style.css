@@ -667,6 +667,25 @@ hr {
   border: 0;
   outline: 0;
 }
+.send_btn{
+  background-color:var(--color-grey-5); /* Green 191d2b */
+  border: none;
+  float: right;
+  border-radius: 18px;
+  color: var(--color-grey-3);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.4s ease-out;
+}
+
+.send_btn:hover {
+  background-color: #4CAF50;
+  color: white;
+ 
+}
 
 /* Contact Section End */
 /* Globally css */
@@ -683,7 +702,6 @@ hr {
   border: 1px solid var(--color-secondary);
   display: flex;
   align-items: center;
-  display: flex;
   align-self: flex-start;
   overflow: hidden;
 }
